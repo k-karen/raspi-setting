@@ -24,7 +24,7 @@ network={
 とかするとラズパイらしきIPが調べられる。
 macアドレスの候補は常に変わるかもしれないので注意。
 真面目に最新を知りたかったら
-`curl http://standards-oui.ieee.org/oui.txt | grep "Raspberry"` 
+`curl http://standards-oui.ieee.org/oui/oui.txt | grep "Raspberry"` 
 などでmacアドレスの候補調べられる。
 
 `ssh pi@raspberrypi.local` でも大丈夫だったりする
